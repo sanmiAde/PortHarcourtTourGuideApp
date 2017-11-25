@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Port Harcourt Tour Guide App</string>
+
+    <!--Categories name -->
+
+    <string name="restaurants">Restaurants</string>
+    <string name="cinemas"> Cinemas</string>
+    <string name="historical_sites">Historical sites</string>
+    <string name="parks">Parks</string>
+</resources>

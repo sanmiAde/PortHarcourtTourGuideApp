@@ -1,18 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.bignerdranch.android.portharcourttourguideapp.MainActivity">
+    android:orientation="vertical"
+    tools:context="com.bignerdranch.android.portharcourttourguideapp.MainActivity"
+    >
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:id="@+id/cinemaTxt"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:text="@string/cinemas"
+        android:background="@color/category_cinemas"
+        style="@style/CategoryStyle" />
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/restaurantTxt"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:text="@string/restaurants"
+        android:background="@color/category_restaurants"
+        style="@style/CategoryStyle"/>
+
+    <TextView
+        android:id="@+id/parksTxt"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:text="@string/parks"
+        android:background="@color/category_parks"
+        style="@style/CategoryStyle"/>
+
+    <TextView
+        android:id="@+id/historicalTxt"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:text="@string/historical_sites"
+        android:background="@color/category_historical_sites"
+        style="@style/CategoryStyle"/>
+</LinearLayout>
