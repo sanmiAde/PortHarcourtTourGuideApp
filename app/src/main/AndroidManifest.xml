@@ -16,6 +16,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ResturantActivity"
+            android:label="@string/restaurants" />
+        <activity
+
+            android:name=".ParksActivity"
+            android:label="@string/parks" />
+        <activity
+
+            android:name=".HistoricalSitesActivity"
+            android:label="@string/title_activity_historical_sites"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".CinemasActivity"
+            android:label="@string/cinemas"></activity>
+
     </application>
 
 </manifest>
